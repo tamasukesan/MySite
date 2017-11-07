@@ -1,0 +1,330 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+	background-color: #EC715F;
+	width: 100%;
+	height: 70px;
+}
+
+nav {
+	width: 1024px;
+	height: 70px;
+	margin: auto;
+}
+
+.head-logo {
+	height: 100%;
+}
+
+.nav-list {
+	font-size: 16px;
+	float: right;
+	line-height: 70px;
+}
+
+.navi-list-item {
+	margin: 0 30px;
+	list-style: none;
+	display: inline-block;
+	color: #FAFAFA;
+}
+
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.main-visual-content {
+	padding-top: 200px;
+}
+
+.main-visual-name {
+	font-size: 64px;
+	color: #FAFAFA;
+	text-align: center;
+}
+
+.main-visual-text {
+	font-size: 20px;
+	color: #FAFAFA;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.portfolio {
+	background-color: #ECEFF1;
+	width: 100%;
+	height: 878px;
+}
+
+.portfolio-box {
+	width: 920px;
+	height: 100%;
+	margin: auto;
+}
+
+.portfolio-name {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	text-align: center;
+}
+
+.border {
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	padding-top: 8px;
+	margin: auto;
+	border-radius: 3px;
+}
+
+.text {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.portfolio-image-box {
+	width: 920px;
+	height: 510px;
+	margin: auto;
+	padding-bottom: 90px;
+}
+
+.portfolio-image-top{
+	width: 920px;
+	height: 260px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.portfolio-image-1 {
+	background-image: url(img/sketch.jpg);
+}
+
+.portfolio-image-2 {
+	background-image: url(img/websuku.png);
+	margin: 0 10px;
+}
+
+.portfolio-image-3 {
+	background-image: url(img/write.jpg);
+}
+
+.portfolio-image-bottom{
+	width: 920px;
+	height: 250px;
+	margin: auto;
+	padding-bottom: 90px;
+}
+
+.portfolio-image-4 {
+	background-image: url(img/webcamp.png);
+}
+
+.portfolio-image-5 {
+	background-image: url(img/talk.jpg);
+	margin: 0 10px;
+}
+
+.portfolio-image-6 {
+	background-image: url(img/webcamp-mother.png);
+}
+
+.image-size{
+	width: 300px;
+    height: 250px;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	float: left;
+}
+
+.feature {
+	width: 100%;
+	height: 728px;
+}
+
+.feature-box {
+    width: 980px;
+	height: 100%;
+	margin: auto;
+}
+
+.feature-name {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	text-align: center;
+}
+
+.feature-strength-box {
+	width: 980px;
+	height: 450px;
+	margin: auto;
+	padding-bottom: 90px;
+}
+
+.feature-strength{
+	width: 320px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+.feature-strength2{
+	width: 320px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin: 0 10px;
+}
+
+.fa-star, .fa-music, .fa-heartbeat{
+	font-size: 60px;
+}
+
+.strength-name {
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+
+.strength-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+.profile {
+	background-color: #ECEFF1;
+	width: 100%;
+	height: 768px;
+}
+
+.profile-box {
+	width: 1024px;
+	height: 100%;
+	margin: auto;
+}
+
+.profile-name {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	text-align: center;
+}
+
+.profile-content {
+	width: 1024px;
+	height: 400px;
+	margin: auto;
+	padding-bottom: 90px;
+}
+
+.profile-content-image-text {
+	width: 512px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.profile-image {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	text-align: center;
+}
+.profile-text-name {
+	font-size: 20px;
+	color: #000000;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+.profile-text {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 8px;
+	text-align: left;
+}
+
+.profile-text1 {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+.contact {
+	width: 100%;
+	height: 500px;
+}
+
+.contact-box {
+    width: 480px;
+	height: 100%;
+	margin: auto;
+}
+
+.contact-name {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	text-align: center;
+}
+
+.contact-text {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.contact-content-box {
+	width: 480px;
+	height: 100px;
+    padding: : 30px 90px 0 0;
+    margin: auto;
+}
+
+.contact-content {
+	width: 240px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #EC715F;
+  line-height: 60px;
+}
+
+.footer-text {
+	font-size: 16px;
+	color: #fafafa;
+}
+
