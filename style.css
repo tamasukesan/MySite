@@ -11,6 +11,10 @@
   clear: both;
 }
 
+header, .main-visual, .portfolio, .feature, .profile, .contact, footer {
+	font-family: 'Avenir', 'Microsoft Sans Serif','DIN Alternate',sans-serif;
+}
+
 header {
 	background-color: #EC715F;
 	width: 100%;
@@ -19,7 +23,7 @@ header {
 
 nav {
 	width: 1024px;
-	height: 70px;
+	height: 100%;
 	margin: auto;
 }
 
@@ -68,12 +72,13 @@ nav {
 .portfolio {
 	background-color: #ECEFF1;
 	width: 100%;
-	height: 878px;
+	/*height: 871px;*/
+	padding-bottom: 90px;
 }
 
 .portfolio-box {
 	width: 920px;
-	height: 100%;
+	/*height: 100%;*/
 	margin: auto;
 }
 
@@ -88,8 +93,7 @@ nav {
 	width: 70px;
 	height: 3px;
 	background-color: #EC715F;
-	padding-top: 8px;
-	margin: auto;
+	margin: 8px auto 0;
 	border-radius: 3px;
 }
 
@@ -102,9 +106,8 @@ nav {
 
 .portfolio-image-box {
 	width: 920px;
-	height: 510px;
+	/*height: 600px;*/
 	margin: auto;
-	padding-bottom: 90px;
 }
 
 .portfolio-image-top{
@@ -131,7 +134,6 @@ nav {
 	width: 920px;
 	height: 250px;
 	margin: auto;
-	padding-bottom: 90px;
 }
 
 .portfolio-image-4 {
@@ -158,12 +160,13 @@ nav {
 
 .feature {
 	width: 100%;
-	height: 728px;
+	/*height: 671px;*/
+	padding-bottom: 90px;
 }
 
 .feature-box {
     width: 980px;
-	height: 100%;
+	/*height: 100%;*/
 	margin: auto;
 }
 
@@ -176,14 +179,13 @@ nav {
 
 .feature-strength-box {
 	width: 980px;
-	height: 450px;
+	/*height: 400px;*/
 	margin: auto;
-	padding-bottom: 90px;
 }
 
 .feature-strength{
 	width: 320px;
-	height: 100%;
+	/*height: 100%;*/
 	display: inline-block;
 	float: left;
 	text-align: center;
@@ -191,7 +193,7 @@ nav {
 
 .feature-strength2{
 	width: 320px;
-	height: 100%;
+	/*height: 100%;*/
 	display: inline-block;
 	float: left;
 	text-align: center;
@@ -200,6 +202,7 @@ nav {
 
 .fa-star, .fa-music, .fa-heartbeat{
 	font-size: 60px;
+	padding-top: 10px;
 }
 
 .strength-name {
@@ -217,12 +220,13 @@ nav {
 .profile {
 	background-color: #ECEFF1;
 	width: 100%;
-	height: 768px;
+	/*height: 671px;*/
+	padding-bottom: 90px;
 }
 
 .profile-box {
 	width: 1024px;
-	height: 100%;
+	/*height: 100%;*/
 	margin: auto;
 }
 
@@ -235,14 +239,22 @@ nav {
 
 .profile-content {
 	width: 1024px;
-	height: 400px;
+	/*height: 400px;*/
 	margin: auto;
-	padding-bottom: 90px;
 }
 
-.profile-content-image-text {
+.profile-content-image-text1 {
 	width: 512px;
-	height: 100%;
+	/*height: 100%;*/
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.profile-content-image-text2 {
+	width: 512px;
+	/*height: 100%;*/
 	display: inline-block;
 	float: left;
 	text-align: center;
@@ -276,13 +288,14 @@ nav {
 }
 
 .contact {
-	width: 100%;
-	height: 500px;
+	/*width: 100%;*/
+	/*height: 489px;*/
+	padding-bottom: 90px;
 }
 
 .contact-box {
-    width: 480px;
-	height: 100%;
+    width: 489px;
+	/*height: 452px;*/
 	margin: auto;
 }
 
@@ -295,24 +308,62 @@ nav {
 
 .contact-text {
 	font-size: 16px;
-	color: #000000;
-	padding: 30px 0;
-	text-align: center;
+	width: 709px;
+    color: #000000;
+    padding: 30px 0;
+    text-align: center;
+    margin-left: -22%;
 }
 
 .contact-content-box {
 	width: 480px;
-	height: 100px;
-    padding: : 30px 90px 0 0;
-    margin: auto;
+	height: 110px;
 }
 
-.contact-content {
+.contact-content1 {
 	width: 240px;
-	height: 100%;
+	/*height: 100%;*/
 	display: inline-block;
 	float: left;
-	text-align: center;
+	text-align: left;
+}
+
+.contact-content2 {
+	width: 240px;
+	/*height: 100%;*/
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
+
+.contact-content-name{
+	font-size: 20px;
+	color: #000000;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+.contact-content-text {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 20px;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.contact-content-text1 {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.contact-content2 i {
+	font-size: 50px;
+}
+
+.fa-twitter {
+	padding: 0 20px;
 }
 
 footer {
@@ -328,3 +379,264 @@ footer {
 	color: #fafafa;
 }
 
+@media screen and (max-width: 767px) {
+.font {
+	font-family: 'Didot','Charter','Cochin',sans-serif;
+}
+header {
+	width: 100%;
+	height: 50px;
+}
+nav {
+	width: 90%;
+    margin: 0 auto;
+}
+
+.head-logo {
+	height: 100%;
+}
+
+.nav-list {
+	display: none;
+}
+
+.main-visual {
+	width: 100%;
+	height: 750px;
+	background-image: url(img/code.png);
+}
+
+.main-visual-name {
+	font-size: 40px;
+	margin: 0 auto;
+}
+
+.main-visual-text {
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+.portfolio {
+	background-color: #ECEFF1;
+	width: 100%;
+	/*height: 1145px;*/
+	padding-bottom: 90px;
+}
+
+.portfolio-box {
+	width: 100%;
+	/*height: 1145px;*/
+}
+
+.portfolio-image-box {
+	width: 100%;
+	/*height: 860px;*/
+	padding-bottom: 0px;
+}
+
+.portfolio-image-top{
+	width: 300px;
+	height: 260px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.portfolio-image-bottom{
+	width: 300px;
+	/*height: 600px;*/
+	margin: 0 auto;
+}
+
+.portfolio-image-1, .portfolio-image-3, .portfolio-image-5 {
+	display: none;
+}
+
+.portfolio-image-2 {
+	margin: 0 auto;
+}
+
+.portfolio-image-4 {
+	margin-bottom: 10px;
+}
+
+.portfolio-image-6 {
+	margin: 0 auto;
+}
+
+/*.image-size{*/
+	/*float: none;*/
+/*}*/
+
+.feature {
+	width: 100%;
+	/*height: 1288px;*/
+	height: 100%;
+}
+
+.feature-box {
+    width: 90%;
+	/*height: 1288px;*/
+}
+
+.feature-strength-box {
+	width: 90%;
+	/*height: 1002px;*/
+	height:100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.feature-strength {
+	height: 300px;
+	float: none;
+	display: inline;
+}
+
+.feature-strength2 {
+	height: 300px;
+	float: none;
+	margin: 10px 0;
+	display: inline;
+	margin: 0 auto;
+}
+
+.profile {
+	width: 100%;
+	/*height: 1031px;*/
+}
+
+.profile-box {
+	width: 90%;
+	/*height: 904%;*/
+	margin: 0 auto;
+}
+
+.profile-content {
+	width: 90%;
+	/*height: 618px;*/
+	margin: 0 auto;
+}
+
+.profile-content-image-text1 {
+	width: 90%;
+	height: 250px;
+	float: none;
+	margin: 0 auto;
+	display: block;
+}
+
+.profile-content-image-text2 {
+	width: 100%;
+	height: 242px;
+	float: none;
+	margin-top: 0px;
+    margin: 0 auto;
+}
+
+.profile-text-name {
+	padding-bottom: 0;
+	margin: 20px 0 5px;
+	text-align: center;
+}
+
+.profile-text {
+	padding-bottom: 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.profile-text1 {
+	padding-bottom: 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contact {
+	width: 100%;
+	/*height: 588px;*/
+}
+
+.contact-box {
+    width: 90%;
+	/*height: 588px;*/
+	margin: 0 auto;
+}
+
+.contact-text {
+	width: 100%;
+    margin-left: 0%;
+    margin: 0 auto;
+}
+
+.contact-content-box {
+	width: 100%;
+	height: 218px;
+}
+
+.contact-content1 {
+	width: 100%;
+	height: 130px;
+	float: none;
+	text-align: center;
+}
+
+.contact-content2 {
+	width: 100%;
+	height: 77px;
+	float: none;
+	text-align: center;
+}
+
+.contact-content-name{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.contact-content-text {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.contact-content-text1 {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.contact-content2 i {
+	font-size: 50px;
+}
+
+.fa-twitter {
+	padding: 0 8px;
+}
+
+footer {
+  width: 100%;
+}
+
+#humberger {
+    display: inline-block;
+    height: 44px;
+    width: 52px;
+    float: right;
+    padding: 3px 0;
+    background-color: #EC715F;
+    border: 2px solid #FFF;
+    margin: 3px 8px 3px 0;
+    }
+#humberger div {
+    height: 4px;
+    width: 35px;
+    background-color:#FFF;
+    margin: 3.5px 7.5px;
+    border-radius: 2px;
+    float: right;
+    }
+
+}
