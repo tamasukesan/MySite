@@ -202,7 +202,8 @@ nav {
 
 .fa-star, .fa-music, .fa-heartbeat{
 	font-size: 60px;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
+	margin-top: 10px;
 }
 
 .strength-name {
@@ -249,7 +250,7 @@ nav {
 	display: inline-block;
 	float: left;
 	text-align: center;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 }
 
 .profile-content-image-text2 {
@@ -258,7 +259,7 @@ nav {
 	display: inline-block;
 	float: left;
 	text-align: center;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 }
 
 .profile-image {
@@ -294,7 +295,7 @@ nav {
 }
 
 .contact-box {
-    width: 489px;
+    width: 515px;
 	/*height: 452px;*/
 	margin: auto;
 }
@@ -308,7 +309,7 @@ nav {
 
 .contact-text {
 	font-size: 16px;
-	width: 709px;
+	width: 750px;
     color: #000000;
     padding: 30px 0;
     text-align: center;
@@ -316,7 +317,7 @@ nav {
 }
 
 .contact-content-box {
-	width: 480px;
+	width: 515px;
 	height: 110px;
 }
 
@@ -326,14 +327,16 @@ nav {
 	display: inline-block;
 	float: left;
 	text-align: left;
+	padding-left: 35px;
 }
 
 .contact-content2 {
-	width: 240px;
+	width: 275px;
 	/*height: 100%;*/
 	display: inline-block;
-	float: left;
-	text-align: left;
+	/*float: left;*/
+	/*text-align: left;*/
+	padding-left: 105px;
 }
 
 .contact-content-name{
@@ -578,6 +581,7 @@ nav {
 	height: 130px;
 	float: none;
 	text-align: center;
+	padding-right: 35px;
 }
 
 .contact-content2 {
@@ -585,6 +589,7 @@ nav {
 	height: 77px;
 	float: none;
 	text-align: center;
+	padding: 20px 105px 0;
 }
 
 .contact-content-name{
@@ -622,19 +627,19 @@ footer {
 
 #humberger {
     display: inline-block;
-    height: 44px;
-    width: 52px;
+    height: 46px;
+    width: 48px;
     float: right;
-    padding: 3px 0;
+    padding: 3px 1px;
     background-color: #EC715F;
     border: 2px solid #FFF;
-    margin: 3px 8px 3px 0;
+    margin-top: 2px;
     }
 #humberger div {
     height: 4px;
-    width: 35px;
+    width: 32px;
     background-color:#FFF;
-    margin: 3.5px 7.5px;
+    margin: 3.5px 5.5px;
     border-radius: 2px;
     float: right;
     }
